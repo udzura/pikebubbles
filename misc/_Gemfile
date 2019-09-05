@@ -2,4 +2,4 @@
 
 source "https://rubygems.org"
 
-gem "pikebubbles"
+gem "pikebubbles", '0.1.1'
