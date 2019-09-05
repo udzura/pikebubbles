@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    pikebubbles (0.0.1)
+    pikebubbles (0.1.0)
 
 GEM
   remote: https://rubygems.org/
