@@ -3,6 +3,8 @@ module Pikebubbles
   class Cli
     def self.run
       $stdin.close
+      $stdout.sync = true
+      $stderr.sync = true
 
       File.mkfifo("/var/run/pikebubbles.fifo", 0666)
       $stderr.puts "Opened FIFO: /var/run/pikebubbles.fifo"
